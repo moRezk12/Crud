@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>CRUDS</title>
+</head>
+<body>
+    
+    
+    <div class="container">
+
+        <h1>To-Do List</h1>
+        <div class="inputs">
+            <input id="title" class="names" type="text" placeholder="Enter YOur Name">
+            <button onclick="renderTask()" id="add" >ADD</button>
+        </div>
+        <div id="searchName">
+            <input onkeyup="searchData(this.value)" id="search" type="text" placeholder="Search YOur Name">
+            <button onclick="getSearchMood(this.id)" id="btnsearch" >Search</button>
+        </div>
+        <div id="deleteAll">
+            
+        </div>
+
+        <h2>Task:  <span></span> </h2>
+
+        
+        <div id="box">
+            
+        </div>
+
+    </div>
+
+   
+    
+
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>

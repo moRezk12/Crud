@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #211517;
+    color: #fff;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container h1{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container .inputs{
+    width: 100%;
+
+}
+input{
+    width: 70%;
+    border: none;
+    outline: none;
+    background-color: #2d2c2d;
+    padding: 8px 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+input:focus{
+    background: #000;
+    /* transform: scale(1.1); */
+}
+#searchName{
+    width: 100%;
+}
+#btnsearch{
+    width: 10%;
+    background-color: transparent;
+    color: #25ac27;
+    padding: 8px ;
+    margin: 5px;
+    border: 1px solid #25ac27;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#deleteAll{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+#deleteAll button{
+    width: 83%;
+    background-color: transparent;
+    color: #26f126;
+    padding: 5px ;
+    margin: 5px;
+    border: 1px solid #26f126;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#add{
+
+    width: 10%;
+    background-color: transparent;
+    color: #25ac27;
+    padding: 8px ;
+    margin: 5px;
+    border: 1px solid #25ac27;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h2{
+    width: 100%;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#row
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2d2c2d;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+#row h1{
+    width: 75%;
+    text-align: left;
+    padding: 0 10px;
+}
+.button{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.button #btnEdit{
+    width: 80%;
+    background-color: transparent;
+    color: #f618fd;
+    padding: 5px ;
+    margin: 5px;
+    border: 1px solid #f618fd;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button #btnDelete{
+    width: 80%;
+    background-color: transparent;
+    color: #fd0911;
+    padding: 5px ;
+    margin: 5px;
+    border: 1px solid #fd0911;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+@media (max-width: 800px ){
+    .inputs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inputs input{
+        width: 100%;
+    }
+    #add{
+        width: 100%;
+    }
+    #deleteAll button{
+        width: 100%;
+    }
+    #searchName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #search{
+        width: 100%;
+    }
+    #btnsearch{
+        width: 100%;
+    }
+    #box{
+        width: 100%;
+    }
+    #box #row h1{
+        width: 100%;
+
+    }
+    #box #row .button{
+        width: 100%;
+    }
+    .button #btnEdit{
+        width: 100%;
+    }
+    .button #btnDelete{
+        width: 100%;
+    }
+
+}
