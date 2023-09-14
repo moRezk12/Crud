@@ -7,6 +7,12 @@ let mood = 'add';
 let tmp;
 
 
+title.addEventListener("keyup" , function(event){
+    if(event.key == "Enter"){
+        renderTask();
+    };
+})
+
 window.onload = function(){
     title.focus();
 };
@@ -89,7 +95,7 @@ readTasks ();
 // update
 function updateData(index){
 
-    // let updates = document.getElementsByClassName('names');
+    
 
     title.value = AllTasks[index].task;
     add.innerHTML = 'update';
